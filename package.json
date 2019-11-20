@@ -15,6 +15,8 @@
     "nodemon": "^1.19.4",
     "nonce": "^1.0.4",
     "request": "^2.88.0",
-    "request-promise": "^4.2.5"
+    "request-promise": "^4.2.5",
+    "shopify-api-node": "^2.25.1",
+    "shopify-token": "^4.0.0"
   }
 }
