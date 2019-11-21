@@ -26,6 +26,10 @@ const forwardingAddress = "https://1e9c341e.ngrok.io"; // Replace this with your
 //     nonce: nonceState
 // })
 
+app.get('/',(req,res)=>{
+    res.send('hello')
+})
+
 app.get('/shopify', (req, res) => {
     const shop = req.query.shop;
     if (shop) {
